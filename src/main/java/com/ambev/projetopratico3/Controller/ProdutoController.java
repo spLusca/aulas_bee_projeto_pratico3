@@ -25,4 +25,7 @@ public class ProdutoController {
         Produto produtoSalvo = produtoService.salvarProduto(produto);
         return ResponseEntity.ok(produtoSalvo);
     }
+
+
+    //TODO criar metodo GET para buscar todos os produtos pela descricao
 }
